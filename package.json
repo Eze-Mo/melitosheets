@@ -1,0 +1,37 @@
+{
+  "name": "mltosheets",
+  "version": "1.0.0",
+  "description": "mecadolibre api to google sheets",
+  "scripts": {
+    "start": "node --inspect=6969 -r ts-node/register src/server.ts",
+    "dev": "nodemon",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  },
+  "author": "Ezequiel Moreno",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.3",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
