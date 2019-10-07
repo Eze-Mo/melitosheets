@@ -1,11 +1,4 @@
-import * as express from "express"
+import app from "./app"
+const PORT:number = 8000
 
-const app = express()
-
-app.listen(8000, () => console.log("Server running on 8000!"))
-
-app.get("/", (req, res) => {
-    res.send("Awesome! We're live debugging this!")
-
-
-})
+app.listen(PORT, () => console.log("Server running on 8000!"))

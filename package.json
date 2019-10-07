@@ -23,11 +23,17 @@
   "author": "Ezequiel Moreno",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "mercadolibre": "0.0.13",
+    "mongoose": "^5.7.3",
+    "request-promise": "^4.2.4"
   },
   "devDependencies": {
     "@types/express": "^4.17.1",
     "@types/jest": "^24.0.18",
+    "@types/request-promise": "^4.1.44",
     "jest": "^24.9.0",
     "nodemon": "^1.19.3",
     "ts-jest": "^24.1.0",
