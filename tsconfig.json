@@ -5,8 +5,7 @@
       "typeRoots" : ["./node_modules/@types", "./typings"],
       "noImplicitAny": false,
       "sourceMap": true,
-      "outDir": "build",
-      "experimentalDecorators": true
+      "outDir": "build"
   },
   "exclude": [
       "node_modules",
