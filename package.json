@@ -31,7 +31,7 @@
     "express": "^4.17.1",
     "googleapis": "^39.2.0",
     "mercadolibre": "0.0.13",
-    "mongoose": "^5.7.3",
+    "mongoose": "^5.7.5",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "ts-mongoose": "0.0.19"
